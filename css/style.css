@@ -1,0 +1,262 @@
+ @media (max-width: 768px) {
+        .hero-section {
+          height: auto !important;
+          padding: 100px 15px 50px;
+          text-align: center;
+        }
+
+        .hero-section h1 {
+          font-size: 24px;
+        }
+
+        .hero-section h4 {
+          font-size: 16px;
+        }
+
+        .about-image {
+          margin: 20px auto 0;
+          display: block;
+          height: 250px !important;
+        }
+
+        .navbar-brand {
+          font-size: 18px;
+        }
+
+        .popover-box .popover-header {
+          font-size: 16px;
+        }
+
+        .popover-box .popover-body li {
+          font-size: 14px;
+        }
+
+        .pricing-thumb h3 small {
+          font-size: 14px;
+        }
+
+        .card h1.role {
+          font-size: 16px;
+          text-align: center;
+        }
+
+        .carousel-item img {
+          height: auto !important;
+          max-height: 400px;
+          object-fit: contain;
+        }
+
+        .navbar-nav {
+          padding-top: 15px;
+          padding-bottom: 15px;
+        }
+      
+ .services-info p,
+    .services-info h6 {
+      font-size: 14px;
+    }
+    .services-info h4 {
+      font-size: 18px;
+    }
+  }
+
+
+
+
+
+
+
+
+.entity {
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  height: 0px;
+  border-top: 1px solid gray;
+  margin-left: 11px;
+  flex-grow: 1;
+}
+
+.badge-1 {
+  background-color: #A93DDB;
+  position: absolute;
+  top: 20px;
+  transform: rotate(-90deg);
+  color: white;
+  padding: 6px 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+
+
+
+ .popover-box {
+      position: relative;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin: 20px;
+      max-width: 350px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .popover-header {
+      padding: 10px 15px;
+      font-weight: bold;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+    }
+
+    .popover-body {
+      padding: 15px;
+      background-color: white;
+    }
+
+    .popover-box::after {
+      content: "";
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-width: 10px 10px 0 10px;
+      border-style: solid;
+      border-color: white transparent transparent transparent;
+    }
+
+    .popover-warning .popover-header {
+      background-color: #ffc107;
+      color: #000;
+    }
+
+    .popover-info .popover-header {
+      background-color: #17a2b8;
+      color: #fff;
+    }
+
+    .popover-light .popover-header {
+      background-color: #ee5509;
+      color: #000;
+    }
+
+    .popover-dark .popover-header {
+      background-color: #343a40;
+      color: #fff;
+    }
+
+    /* .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    } */
+
+    .popover-box::after {
+      /* triangle below */
+      border-color: white transparent transparent transparent;
+    }
+
+    .popover-light .popover-box::after {
+      border-color: #f8f9fa transparent transparent transparent;
+    }
+
+    .popover-dark .popover-box::after {
+      border-color: white transparent transparent transparent;
+    }
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+:root {
+  --br: 20px;
+ }
+/* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  background: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+} */
+.container1 {
+  text-align: center;
+}
+.row1 {
+  display: flex;
+  gap: 20px;
+}
+.card {
+  width: 240px;
+  background: #fff;
+  padding: 15px;
+  border-radius: var(--br);
+  transition: 0.5s;
+}
+.card:hover {
+  box-shadow: 0px 3px 10px 5px #e9e9e9;
+}
+.card img {
+  max-width: 100%;
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  border: 4px solid var(--bc, #000);
+}
+h1 {
+  margin: 20px 0;
+}
+h2 {
+  margin: 15px 0 5px;
+}
+.card .role {
+  font-size: 80%;
+  color: #444;
+  margin-bottom: 20px;
+}
+.card a {
+  background: var(--btn, #000);
+  color: #fff;
+  padding: 10px 15px;
+  width: 100%;
+  display: block;
+  border-radius: var(--br);
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+@media (max-width: 767px) {
+  .row {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .card {
+    flex: 0 0 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 420px) {
+  .card {
+    flex: 0 0 calc(100% - 20px);
+    max-width: calc(100% - 20px);
+  }
+}
+
+ .carousel-img {
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  @media (max-width: 768px) {
+    .carousel-img {
+      height: 100vh;
+      object-fit: cover;
+    }
+  }
